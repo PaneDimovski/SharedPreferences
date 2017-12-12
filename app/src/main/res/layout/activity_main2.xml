@@ -59,9 +59,17 @@
         android:layout_below="@id/age1"
         android:layout_width="150dp"
         android:layout_height="40dp" />
+
+    <TextView
+        android:id="@+id/pol"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/age"
+        android:layout_width="150dp"
+        android:layout_height="40dp" />
+
 <Button
     android:id="@+id/btn2"
-    android:layout_below="@id/age"
+    android:layout_below="@id/pol"
     android:text="LOAD"
     android:layout_centerInParent="true"
     android:layout_width="150dp"
